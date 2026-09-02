@@ -1,21 +1,22 @@
-# qgis_dflight_importa_sperimentale
+# qgis_dflight_import_experimental
 Importa in Qgis le Geo Zone scaricate da D-Flight
 
-Diclaimer: plugin sperimentale, si declina ogni responsabilità sul suo uso.
------------------------------------
+-------------------------------------------------------
+# DISCLAIMER
+Experimental plugin;
+no liability is assumed for its use.
+-------------------------------------------------------
 
-Questo plugin sperimentale converte in Geopackage il file Json prodotto dal portale D-Flight.
-Passaggi da compiere:
+This experimental plugin converts the JSON file produced by the D-Flight portal into a GeoPackage.
 
-Preliminare: ottenere il file json.gz dal portale D-Flight
+Steps to follow
 
-1) scompattare il file json.gz scaricato da D-Flight in una qualunque cartella
-2) lanciare il plugin e navigare fino alla cartella in cui è presente il file json
-3) scegliere dove salvare il file convertito
-4) applicare lo stile QML associato al plugin
+PRELIMINARY: obtain the json.gz file from the D-Flight portal THAN
 
-NOTE: viene creato un report per le geometrie che non è possibile importare.
+1) Unzip the json.gz file downloaded from D-Flight into any folder
+2) Launch the plugin and navigate to the folder containing the JSON file
+3) Choose where to save the converted file
+4) In QGIS apply the QML style associated with the plugin in the styles folder
 
-ATTENZIONE: il file Json al momento della pubblicazione del plugin non contiene le aree militari
-
-Ogni ulteriore miglioria del plugin può essere spedita a: a.dimarco@arpat.toscana.it
+   NOTE: A report is generated for geometries that cannot be imported.
+   PAY ATTENTION: At the time of the plugin's release, the JSON file does not include military areas. Any further improvements are welcomed and can can be sent to: a.dimarco@arpat.toscana.it
