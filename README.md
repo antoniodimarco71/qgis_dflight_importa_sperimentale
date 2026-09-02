@@ -1,5 +1,5 @@
 # qgis_dflight_import_experimental
-Importa in Qgis le Geo Zone scaricate da D-Flight
+Import Geo Zones downloaded from D-Flight into QGIS.
 
 -------------------------------------------------------
 # DISCLAIMER
