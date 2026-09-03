@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Import D-Flight UAS Geo Zones
+qgisMinimumVersion=3.4
+description=Converts the Geo Zone JSON file downloadable from D-Flight to GeoPackage and imports it
+version=0.1
+author=Antonio Di Marco/Dimadrones
+email=dimarco71@gmail.com
+
+about=Experimental plugin. no liability is assumed for its use. This experimental plugin converts the JSON file produced by the D-Flight portal into a GeoPackage. Steps to follow: PRELIMINARY OPERATIONS: obtain the json.gz file from your D-Flight account on D-Flight web application and unzip the json.gz file into any folder THAN 1) Launch the plugin and navigate to the folder containing the JSON file 2) Choose where to save the converted file 3) Apply the QML style associated with the plugin (styles folder) NOTE: A report is generated for geometries that cannot be imported PAY ATTENTION: At the time of the plugin's release, the JSON file seems does not include military areas. Any further improvements to the plugin can be sent to: dimarco71@gmail.com
+
+tracker=https://github.com/antoniodimarco71/qgis_dflight_importa_sperimentale/issues
+repository=https://github.com/antoniodimarco71/qgis_dflight_importa_sperimentale
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=no
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=dflight, d-flight, uas, drone, drones, geozones, geo zone
+
+homepage=https://github.com/antoniodimarco71/qgis_dflight_importa_sperimentale
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=True
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
