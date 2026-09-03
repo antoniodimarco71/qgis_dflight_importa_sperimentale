@@ -1,32 +1,11 @@
-Plugin Builder Results
+Import D-Flight UAS Geo Zones
 
-Your plugin DFlight_Import was created in:
-    C:/xxxxxx/yyyyyyyy/PLUGIN_GEOZONE_DFLIGHT\dflight_import
+Converts the Geo Zone JSON file downloadable from D-Flight to GeoPackage and imports it
 
-Your QGIS plugin directory is located at:
-    C:/Users/xxxxxx/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins
+Experimental plugin. no liability is assumed for its use. This experimental plugin converts the JSON file produced by the D-Flight portal into a GeoPackage. Steps to follow: PRELIMINARY OPERATIONS: obtain the json.gz file from your D-Flight account on D-Flight web application and unzip the json.gz file into any folder THAN 1) Launch the plugin and navigate to the folder containing the JSON file 2) Choose where to save the converted file 3) Apply the QML style associated with the plugin (styles folder) NOTE: A report is generated for geometries that cannot be imported PAY ATTENTION: At the time of the plugin's release, the JSON file seems does not include military areas. Any further improvements to the plugin can be sent to: dimarco71@gmail.com
 
-What's Next:
-
-  * Copy the entire directory containing your new plugin to the QGIS plugin
-    directory
-
-  * Compile the resources file using pyrcc5
-
-  * Run the tests (``make test``)
-
-  * Test the plugin by enabling it in the QGIS plugin manager
-
-  * Customize it by editing the implementation file: ``dflight_import.py``
-
-  * Create your own custom icon, replacing the default icon.png
-
-  * Modify your user interface by opening DFlight_Import_dialog_base.ui in Qt Designer
-
-  * You can use the Makefile to compile your Ui and resource files when
-    you make changes. This requires GNU make (gmake)
-
-For more information, see the PyQGIS Developer Cookbook at:
-http://www.qgis.org/pyqgis-cookbook/index.html
-
-(C) 2011-2018 GeoApt LLC - geoapt.com
+Categoria	Plugins
+Etichette	dflight, d-flight, uas, drone, drones, geozones, geo zone
+Maggiori informazioni	homepage   bug tracker   repository del codice
+Autore	Antonio Di Marco
+Versione installata	0.2
