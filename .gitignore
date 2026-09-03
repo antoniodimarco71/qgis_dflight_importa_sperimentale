@@ -1,0 +1,82 @@
+# ========================================
+# Python
+# ========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ========================================
+# Ambiente virtuale
+# ========================================
+venv/
+ENV/
+env/
+.venv
+
+# ========================================
+# IDE e Editor
+# ========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# ========================================
+# Sistema operativo
+# ========================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ========================================
+# QGIS specifici
+# ========================================
+*.qml~
+*.qgs~
+*.qgz~
+*.aux
+*.aux.xml
+*.dbf~
+*.shp~
+*.shx~
+
+# ========================================
+# File temporanei e di log
+# ========================================
+*.log
+*_log_*.txt
+*.tmp
+*.temp
+
+# ========================================
+# Plugin Builder (file di build)
+# ========================================
+*.zip
+pb_tool.cfg
+plugin_upload.cfg
