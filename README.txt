@@ -1,10 +1,10 @@
 Plugin Builder Results
 
 Your plugin DFlight_Import was created in:
-    C:/DRONI SOPRALLUOGHI/PLUGIN_GEOZONE_DFLIGHT\dflight_import
+    C:/xxxxxx/yyyyyyyy/PLUGIN_GEOZONE_DFLIGHT\dflight_import
 
 Your QGIS plugin directory is located at:
-    C:/Users/a.dimarco/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins
+    C:/Users/xxxxxx/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins
 
 What's Next:
 
