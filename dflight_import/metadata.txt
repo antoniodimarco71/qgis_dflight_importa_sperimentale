@@ -6,7 +6,7 @@
 name=Import D-Flight UAS Geo Zones
 qgisMinimumVersion=3.4
 description=Converts the Geo Zone JSON file downloadable from D-Flight to GeoPackage and imports it
-version=0.3
+version=0.4
 author=Antonio Di Marco
 email=dimarco71@gmail.com
 
